@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/activity_horizontal_margin">
+    <ImageView
+        android:id="@+id/img_view"
+        android:layout_width="70sp"
+        android:layout_height="80sp"
+        />
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical">
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_weight="1"
+                android:id="@+id/tv_khoanchi"
+                android:textSize="15sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DoanhThu"/>
+
+            <Button
+
+                android:id="@+id/btn_sua"
+                android:layout_width="60sp"
+                android:layout_height="50sp"
+
+                />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/tv_loaichi"
+            android:textSize="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LoaiThu"/>
+
+        <TextView
+            android:id="@+id/tv_sotien"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="So Tien"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/tv_ngaythang"
+            android:textSize="15sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ngay Thang"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>
